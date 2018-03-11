@@ -1,10 +1,11 @@
 # Getting the app running
 
 1. bundle install
-2. rake db:migrate && RAILS_ENV=test rake db:migrate
-3. rake db:seed
-4. rspec
-5. rails s
+2. bundle exec rake db:migrate
+3. RAILS_ENV=test bundle exec rake db:migrate
+4. bundle exec rake db:seed
+5. bundle exec rspec
+6. bundle exec rails s
 
 # Integrate with MailChimp
 * Send through their name/email
